@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #0E2954;
+}
+
+.titulo {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 5em;
+    color: #FFB000;
+    font-weight: bold;
+}
+
+#conteudo {
+    margin-top: 15em;
+}
+
+div {
+    padding: 10px;
+}
+
+button {
+    background-color: #FFB000;
+    border-radius: 20px;
+    width: 100px;
+    padding: 2px;
+    margin-left: 5px;
+}
+button:hover {
+    cursor: pointer;
+}
+
+input {
+    height: 2.2em;
+    width: 200px;
+    border-radius: 20px;
+    background-color: #365faa;
+    font-weight: bold;
+    color: white;
+}
+
+input::placeholder {
+    color: #FFB000;
+    font-weight: bold;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.pesquisa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
