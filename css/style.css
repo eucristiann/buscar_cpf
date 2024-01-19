@@ -63,3 +63,10 @@ input[type=number] {
     align-items: center;
     justify-content: center;
 }
+
+.resultado {
+    margin-top: 20px;
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+}

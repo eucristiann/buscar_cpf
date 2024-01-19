@@ -23,7 +23,7 @@ function clicarEnter() {
 
 btn.addEventListener('click', () => {
     if (input.length == 11) {
-        buscarCPF()// Colocar a função de busca aqui
+       buscarCPF(dados) // Colocar a função de busca aqui
     } else {
        // window.alert('Digite um CPF válido.')
     }
@@ -33,10 +33,10 @@ function buscarCPF(dados) {
     pesquisa.innerHTML = ''
     dados.forEach(documentos => {
         pesquisa.innerHTML += `
-        <div>
-            <p>O ${documentos.cpf} digitado corresponde à ${documentos.nome}.</p>
+        <div class="resultado">
+            <p>O CPF ${documentos.cpf} pertence à ${documentos.nome}.</p>
         </div>
         `
-        console.log(funcionou)
+        console.log("funcionou")
     })
 }

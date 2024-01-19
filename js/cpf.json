@@ -1,18 +1,18 @@
 [
         {
-            "cpf": "722.248.984-36",
+            "cpf": "72224898436",
             "nome": "Maria da Silva"
         },
         {
-            "cpf": "924.675.117-58",
+            "cpf": "92467511758",
             "nome": "José Santos"
         },
         {
-            "cpf": "326.939.474-80",
-            "nome": "Fulado Silveira"
+            "cpf": "32693947480",
+            "nome": "Fulano Silveira"
         },
         {
-            "cpf": "431.725.758-02",
+            "cpf": "43172575802",
             "nome": "Ciclano Gomes"
         }
 ]
