@@ -38,7 +38,7 @@ function buscarCPF(dados, cpfDigitado) {
                 <p>O CPF ${cpfFormatado} pertence à ${res.nome}.</p>
             </div>
         `
-        input.value = ''
+        input.value = '' // para não ficar exibindo no input o CPF digitado
     } else {
         resultado.innerHTML += `
             <div class="resultado">
